@@ -1,0 +1,222 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: 'Merienda', cursive;
+}
+
+h1 {
+  font-family: 'Secular One', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+p, h5 {
+  color: #F7FBFC;
+}
+
+/* navigation bar section */
+.brand-image {
+  width: 120px;
+}
+
+.navbar {
+  padding: 0 0 1rem;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.heading {
+  padding: 4.5rem 0 0 0;
+}
+
+.container-fluid {
+  padding: 3% 8% 4%;
+}
+
+.title-image {
+  width: 60%;
+  position: relative;
+  left: 40%;
+  margin: 0 0 0 0;
+}
+
+/* about */
+#about {
+  text-align: center;
+  background-color: #769FCD;
+}
+
+.about-heading {
+  font-family: 'Secular One', sans-serif;
+  padding: 0 0 0 2%;
+  color: #fff;
+}
+
+.about-paragraph {
+  line-height: 1;
+  color: #F7FBFC;
+  font-family: 'Merienda', cursive;
+}
+
+.about-btn {
+  margin: 2% 0 0 0;
+  color: #769FCD;
+}
+
+/* the-app section*/
+#the-app{
+  margin: 0 0;
+}
+.the-app-heading {
+  font-family: 'Secular One', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.the-app-paragraph, h6 {
+  color: #787A91;
+}
+
+.the-app-image {
+  width: 70%;
+  position: relative;
+  left: 30%;
+  margin: 10% 0 0 0;
+}
+
+/* footer section*/
+#footer {
+  padding: 3% 2%;
+  text-align: center;
+  background-color: #769FCD;
+}
+
+.social-icon {
+  padding: 20px 10px;
+}
+
+
+/* description section */
+#description {
+  background-color: #769FCD;
+}
+
+.description-paragraph {
+  color: #fff;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  padding: 1% 0;
+}
+
+/* features section */
+#features {
+  background-color: #fff;
+}
+
+.features-heading {
+  text-align: center;
+  color: #769FCD;
+}
+
+.features-box {
+  text-align: center;
+  padding: 2%;
+
+}
+
+.icon {
+  color: #769FCD;
+  margin-bottom: 1rem;
+  font-size: 3.5rem;
+}
+
+/* download section */
+
+#download{
+  text-align:center;
+  padding: 1% 0 3% 0;
+
+}
+
+/* @media query  */
+@media (max-width:1028px) {
+  #title {
+    text-align: center;
+    width: 100%;
+  }
+h1 {
+  font-size: 2.5rem;
+  }
+  .brand-image {
+    width: 150px;
+  }
+
+  .navbar {
+    font-weight: bolder;
+    font-size:30px ;
+    margin: 0;
+  }
+  .navbar-toggler{
+    width: 30%;
+    height: 60px;
+  }
+  .title-image {
+    width: 100%;
+    position: static;
+  }
+  .about-heading {
+    font-size: 2.5rem;'
+    line-height: 1;
+    font-weight: bold;
+    padding: 5% 0;
+  }
+  .about-paragraph {
+  font-size: 2rem;
+  line-height: 1.5;
+  padding: 5% 0;
+  }
+  .the-app-heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding: 10% 0;
+
+  }
+  .the-app-paragraph {
+  font-size: 2rem;
+  line-height: 1.5;
+  padding: 5% 0;
+  }
+  .the-app-image {
+    width: 100%;
+    position: relative;
+    left: 1%;
+    margin: 0;
+  }
+
+.download-heading {
+    font-weight: bolder;
+    line-height: 2;
+    font-size: 3rem;
+
+  }
+  .description-paragraph {
+  font-size: 2rem;
+  line-height: 1.5;
+  padding: 5% 0;
+  }
+  .features-box {
+    text-align: center;
+  width: 80%;
+  margin: 1rem auto;
+
+  }
+  #footer {
+      font-weight: bolder;
+
+    }
+
+}
